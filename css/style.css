@@ -27,6 +27,8 @@ h2 {
   margin: auto;
 }
 
+/* ==== global section */
+
 .flex {
   display: flex;
   justify-content: space-between;
@@ -63,8 +65,13 @@ header ul li {
   cursor: pointer;
 }
 
-header ul li::hover {
-  background: red;
+header ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+header ul li:hover {
+  background: none;
   transform: scale(1.5);
 }
 
