@@ -80,11 +80,19 @@ header ul li:hover {
   transform: scale(1.5);
 }
 
+header a.active {
+  background: rgb(24, 24, 132);
+}
+
+header .nav-btn {
+  display: none;
+}
+
 .logo {
   width: 70px;
   height: 70px;
   background: white;
-  border-radius: 50% 50% 50% 10%;
+  border-radius: 50% 50%;
   color: black;
   display: flex;
   justify-content: center;
@@ -95,7 +103,7 @@ header ul li:hover {
   width: 60px;
   height: 60px;
   display: flex;
-  border-radius: 50% 50% 50% 10%;
+  border-radius: 50% 50%;
   border: 3px dotted blue;
   justify-content: center;
   align-items: center;
